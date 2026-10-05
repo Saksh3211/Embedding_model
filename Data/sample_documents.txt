@@ -1,0 +1,12 @@
+A small neural network can learn word vectors from a collection of sentences.
+Text embeddings turn sentences into numerical vectors for comparison.
+A search engine can rank articles by comparing query and document embeddings.
+Python programs use dictionaries to map words to integer token identifiers.
+PyTorch embedding layers store trainable vectors for each token.
+Training a skip gram model teaches each center word to predict nearby context words.
+A corpus about gardening contains words such as plant, soil, seed, and garden.
+A corpus about cooking contains words such as recipe, oven, ingredient, and meal.
+A corpus about programming contains words such as function, variable, code, and program.
+A dataset with consistent examples can help a model learn useful relationships.
+A similarity score can rank candidate documents for a search query.
+A vector is a list of numbers that represents a word or text passage.

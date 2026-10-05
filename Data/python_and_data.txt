@@ -1,0 +1,22 @@
+Python is a programming language often used for machine learning.
+A Python script contains instructions that the interpreter runs.
+A variable stores a value that a program can use later.
+A list stores an ordered collection of values.
+A dictionary maps keys to values.
+A function groups reusable steps under a name.
+A module is a Python file that contains code and definitions.
+A package groups related Python modules together.
+A virtual environment keeps project dependencies separate.
+The pip command installs Python packages into the active environment.
+PyTorch provides tensors and tools for building neural networks.
+A tensor is a multidimensional array of numerical values.
+A tensor can store a word embedding or a batch of training examples.
+A data loader can read examples and provide them to a training loop.
+A text file can store one sentence or document on each line.
+UTF eight encoding supports text from many languages.
+A regular expression can find word tokens in raw text.
+A counter can count how often each token appears in a corpus.
+A vocabulary maps each token to an integer identifier.
+An embedding layer maps integer token identifiers to trainable vectors.
+A random seed makes many training runs easier to reproduce.
+A saved model lets a program reuse learned weights later.

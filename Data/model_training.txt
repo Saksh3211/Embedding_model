@@ -1,0 +1,19 @@
+The training loop repeats the same learning steps over many batches.
+The model receives a center word and nearby context words as training examples.
+The skip gram objective predicts context words from a center word.
+Positive examples are word pairs that occur near each other in text.
+Negative examples are word pairs that do not occur together in the training context.
+The model scores a positive pair higher than a negative pair.
+The embedding table starts with randomly initialized vectors.
+Backpropagation calculates how each parameter affected the training loss.
+The optimizer uses gradients to update the embedding tables.
+Training data should contain enough repeated patterns for the model to learn.
+A context window controls how many nearby words form a positive pair.
+Frequent words appear many times and can dominate a small corpus.
+Subsampling can reduce the influence of extremely common words.
+Negative sampling reduces the cost of training a large vocabulary.
+The trained input embedding table can be used as word vectors.
+Word vectors can be compared with dot products or cosine similarity.
+A sentence vector can be approximated by averaging its word vectors.
+Averaging word vectors is simple but does not capture word order well.
+A sentence embedding model needs training examples that teach sentence level meaning.

@@ -1,0 +1,10 @@
+A machine learning project begins with a clear goal and representative data.
+The first version should be small enough to understand and test.
+A baseline gives the project a simple result for later comparison.
+The training script should report progress and save useful model information.
+The vocabulary and embedding weights must be saved together.
+The inference code converts new text with the same preprocessing steps.
+A reproducible experiment records its data source and training settings.
+A project can improve by changing one setting at a time.
+A larger corpus usually matters more than adding complexity too early.
+A model should be tested on text that it did not see during training.

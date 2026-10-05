@@ -1,0 +1,13 @@
+Raw text often contains uppercase letters and punctuation.
+Lowercasing makes words such as Model and model use the same token.
+Tokenization converts a string into a sequence of tokens.
+Whitespace separates many words in English text.
+Punctuation can be removed or treated as separate tokens.
+A stop word is a common word that may carry little topic information.
+Removing every common word can also remove useful context.
+A corpus should be cleaned consistently before vocabulary creation.
+Sentence boundaries help prevent unrelated words from becoming neighbors.
+A text preprocessing step should preserve words that matter to the task.
+A vocabulary limit can exclude rare tokens from a small training corpus.
+Rare words may need more examples before their vectors become useful.
+The same tokenizer must be used during training and model inference.

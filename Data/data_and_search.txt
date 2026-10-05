@@ -1,0 +1,18 @@
+A document collection contains text that people want to search.
+A search query describes the information a person is looking for.
+Keyword search finds documents that contain matching words.
+Semantic search tries to find documents with related meanings.
+A document can be split into smaller chunks before it is embedded.
+Chunking helps a search system retrieve a relevant part of a long document.
+Each text chunk can be converted into a vector by an embedding model.
+A query vector can be compared with stored document vectors.
+Cosine similarity is commonly used to rank vectors by their direction.
+The top result is the document with the highest similarity score.
+Metadata can store a document title, source, or topic beside its text.
+A data pipeline loads, cleans, and prepares raw text for training.
+Duplicate examples can cause the training set to overrepresent some phrases.
+A balanced corpus includes examples from the topics the model should handle.
+A data split separates training examples from evaluation examples.
+A useful evaluation checks whether search results match a human information need.
+Search quality depends on both the embedding model and the source documents.
+A retrieval system returns candidate documents before a separate answer is generated.

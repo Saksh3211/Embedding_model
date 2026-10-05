@@ -1,0 +1,24 @@
+An embedding represents an item as a list of numbers called a vector.
+A text embedding maps words, sentences, or documents into a vector space.
+Words with similar meanings can have nearby vectors when training data supports that pattern.
+A sentence encoder converts a complete sentence into one fixed length vector.
+A word embedding assigns a vector to each word in its vocabulary.
+The vocabulary is the collection of tokens known to the model.
+A tokenizer splits raw text into smaller units before training.
+A token can be a word, a subword, or a punctuation mark.
+The embedding dimension is the number of values in each vector.
+Cosine similarity compares the direction of two vectors.
+Similar vectors can help retrieve related documents from a collection.
+A search system embeds a query and compares it with document vectors.
+The nearest neighbors are the vectors with the highest similarity scores.
+Training examples teach a model which words and phrases appear in related contexts.
+A context window contains nearby tokens around a target word.
+A larger context window gives the model a wider view of surrounding text.
+A corpus is the collection of text used to train a language model.
+Clean and varied training text helps the model learn useful word relationships.
+A small corpus is useful for learning but often produces unreliable similarities.
+A vector database stores embeddings and supports fast similarity search.
+Normalization scales a vector to unit length before cosine similarity is calculated.
+An out of vocabulary word is a token that the model did not learn during training.
+A training loss measures how well the model predicts its training examples.
+A lower training loss does not always mean that search results are useful.

@@ -1,0 +1,22 @@
+Machine learning is a way for a computer to learn patterns from examples.
+A training dataset contains examples that a model uses to learn.
+A feature is an input value that describes an example.
+A label is the answer that a supervised learning model tries to predict.
+A neural network learns by adjusting the numerical weights between its layers.
+A layer transforms input values before passing them to the next layer.
+The model makes a prediction from its input features.
+A loss function measures the difference between a prediction and its target.
+An optimizer updates model weights to reduce the loss.
+Gradient descent uses gradients to improve model parameters.
+An epoch is one full pass through the training dataset.
+A batch is a small group of examples processed together.
+Validation data helps measure performance on examples not used for training.
+Test data is held aside for a final evaluation of the trained model.
+Overfitting happens when a model memorizes training examples instead of learning general patterns.
+More varied examples can help a model generalize to new inputs.
+A learning rate controls the size of each optimizer update.
+A high learning rate can make training unstable.
+A low learning rate can make training very slow.
+Text classification assigns a category to a piece of text.
+A language model learns statistical patterns from sequences of tokens.
+A neural network can represent words and other inputs with learned vectors.

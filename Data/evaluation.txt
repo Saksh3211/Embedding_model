@@ -1,0 +1,10 @@
+A good embedding places related examples closer than unrelated examples.
+Nearest neighbor inspection is a quick way to explore learned word vectors.
+A word similarity benchmark compares model scores with human judgments.
+A retrieval test checks whether relevant documents appear near the top.
+Evaluation examples should be separate from the text used for training.
+A model can memorize a small evaluation set if examples leak into training.
+Consistent test queries make it easier to compare model changes.
+A useful baseline helps show whether a new model improves search quality.
+Training loss describes optimization but does not directly measure retrieval quality.
+Human review can reveal errors that a single score does not show.
